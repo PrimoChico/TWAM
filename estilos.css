@@ -1,0 +1,64 @@
+body {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  
+}
+
+
+
+
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#navbar.navbar-collapse.collapse ul li a{
+	padding: 20px 30px 20px 30px;
+}
+
+#arroz_marisco{
+	height: 200px;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+
+.jumbotron{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.container{
+	padding-left: 0px;
+	padding-right: 0px
+}
+
+#div_titulo_btnEntrar{
+
+
+}
+
+#div_titulo{
+	display: inline-block;
+
+	
+}
+
+#div_btnEntrar{
+	display: inline-block;
+	float: right;	
+	margin-top: 19px;
+}
+
+.titulo_descricao{
+	text-align: center;
+}
+
+
+
+.jumbotron .descricao
+{
+	font-size: 18px;
+} 

@@ -9,7 +9,7 @@ body {
 }
 
 #img_1{
-	width: 100px;
+	width: 150px;
 	height: auto;
 }
 
@@ -106,7 +106,7 @@ ul#myNav.nav.navbar-nav{
 #div_btnEntrar{
 	display: inline-block;
 	float: right;	
-	margin-top: 35px;
+	margin-top: 15px;
 
 }
 
@@ -203,6 +203,7 @@ div#div_titulo_footer.row{
 		text-align: center;
 	}
 
+
 }
 
 .container .navbar.navbar-default .container-fluid .navbar-collapse.collapse .nav.navbar-nav .dropdown .dropdown-toggle{
@@ -210,11 +211,25 @@ div#div_titulo_footer.row{
 
 }
 
-a.dropdown-toggle:hover{
-
-		
+ul.dropdown-menu{
+	/*background-color: #FFECCE;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
+a{
+}
+
+#div_entrar{
+	width: 200px;
+	float: right;
+	margin-top: 20px;
+}
+
+
+.container .input-group.input-group-sm .form-control{
+	margin-bottom: 10px;
+}
 
 
 /*Drop down automático na nav bar com mouseover */

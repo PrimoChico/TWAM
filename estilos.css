@@ -189,13 +189,32 @@ div#div_titulo_footer.row{
 	}
 
 	ul#myNav.nav.navbar-nav{
-	display: inherit;
+	display: inherit;}
+
+	div#navbar.navbar-collapse.collapse.in {
+		text-align: center;
+	}
+
+
+	.nav>li {
+		display: inherit;
+	}
+	ul.dropdown-menu{
+		text-align: center;
+	}
+
 }
 
-.nav>li {
-	display: inherit;
+.container .navbar.navbar-default .container-fluid .navbar-collapse.collapse .nav.navbar-nav .dropdown .dropdown-toggle{
+
+
 }
+
+a.dropdown-toggle:hover{
+
+		
 }
+
 
 
 /*Drop down automático na nav bar com mouseover */

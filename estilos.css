@@ -14,6 +14,19 @@ body {
 }
 
 
+#div_login{
+	float: right;
+
+}
+
+#div_line{
+	display: block;
+}
+
+
+
+
+
 #h1_titulo{
 
 }
@@ -49,6 +62,9 @@ body {
 }
 
 
+
+#firstRow{
+}
 
 ul.nav.navbar-nav{
 	width: 100%
@@ -104,7 +120,7 @@ ul#myNav.nav.navbar-nav{
 }
 
 #div_btnEntrar{
-	display: inline-block;
+	/display: inline-block;
 	float: right;	
 	margin-top: 15px;
 
@@ -179,6 +195,7 @@ div#div_titulo_footer.row{
 
 @media screen and (max-width: 991px)
 {
+	
   #div_btn_topo{
   	text-align: center;
   }
@@ -189,7 +206,8 @@ div#div_titulo_footer.row{
 	}
 
 	ul#myNav.nav.navbar-nav{
-	display: inherit;}
+	display: inherit;
+	}
 
 	div#navbar.navbar-collapse.collapse.in {
 		text-align: center;
@@ -206,10 +224,7 @@ div#div_titulo_footer.row{
 
 }
 
-.container .navbar.navbar-default .container-fluid .navbar-collapse.collapse .nav.navbar-nav .dropdown .dropdown-toggle{
 
-
-}
 
 ul.dropdown-menu{
 	/*background-color: #FFECCE;*/

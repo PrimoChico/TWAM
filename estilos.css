@@ -16,14 +16,18 @@ body {
 
 #div_login{
 	float: right;
+	display: block;
 
 }
 
 #div_line{
-	display: block;
+	display: grid;
 }
 
-
+div.col-md-3.col-md-offset-8{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
 
 
@@ -53,7 +57,7 @@ body {
 
 .navbar {
   margin-bottom: 20px;
-
+  margin-top: 20px;
 
 }
 
@@ -115,12 +119,17 @@ ul#myNav.nav.navbar-nav{
 
 #div_titulo{
 	display: inline-block;
-
 	
 }
 
+#div_titulo_btnEntrar{
+	
+	display: block;
+}
+
+
 #div_btnEntrar{
-	/display: inline-block;
+	display: inline-block;
 	float: right;	
 	margin-top: 15px;
 
@@ -137,7 +146,6 @@ ul#myNav.nav.navbar-nav{
 {
 	font-size: 17px;
 } 
-
 
 
 
@@ -196,9 +204,6 @@ div#div_titulo_footer.row{
 @media screen and (max-width: 991px)
 {
 	
-  #div_btn_topo{
-  	text-align: center;
-  }
 
   .navbar-nav>li {
 	float: inherit;
@@ -220,10 +225,17 @@ div#div_titulo_footer.row{
 	ul.dropdown-menu{
 		text-align: center;
 	}
-
+	
 
 }
 
+@media screen and (max-width: 450px)
+{
+	#div_titulo_btnEntrar{
+
+		display: inline-flex;	
+	}
+}
 
 
 ul.dropdown-menu{

@@ -44,6 +44,9 @@ body {
 
 #table_userNamePassWordBtn{
 	border: hidden;
+	margin-bottom: 0px;
+	margin-top: 25px;
+
 }
 
 #tr_firstLineUserNamePassword{
@@ -52,6 +55,27 @@ body {
 
 #div_line{
 	display: grid;
+}
+
+#a_ajuda{
+	color: #FFFFFF;
+}
+
+#a_ajuda:hover{
+	color: #D0D0D0;
+	text-decoration: none;
+}
+
+#a_ajuda:active{
+	text-decoration: none;
+}
+
+#a_ajuda:visited {
+    text-decoration: none;
+}
+
+#a_ajuda:link {
+    text-decoration: none;
 }
 
 div.col-md-3.col-md-offset-8{

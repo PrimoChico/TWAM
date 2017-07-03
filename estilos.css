@@ -1,11 +1,22 @@
 body {
-  padding-top: 0px;
-  padding-bottom: 20px;
+  	padding-top: 0px;
+  	padding-bottom: 20px;
   
-  background-image: url("bg6.jpg");
-  background-position: center;
+  	background-image: url("bg6.jpg");
+  	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#div_img_login{
+	display: block;
+	overflow: hidden;
+}
+
+
+#div_img{
+	display: inline-block;
+	float: left;
 }
 
 #img_1{
@@ -13,12 +24,23 @@ body {
 	height: auto;
 }
 
-
 #div_login{
 	float: right;
 	display: block;
 
 }
+
+
+#div_btnEntrar{
+	display: inline-block;
+	float: right;	
+	margin-top: 15px;
+
+}
+
+
+
+
 
 #div_line{
 	display: grid;
@@ -117,23 +139,7 @@ ul#myNav.nav.navbar-nav{
 }
 
 
-#div_titulo{
-	display: inline-block;
-	
-}
 
-#div_titulo_btnEntrar{
-	
-	display: block;
-}
-
-
-#div_btnEntrar{
-	display: inline-block;
-	float: right;	
-	margin-top: 15px;
-
-}
 
 .titulo_descricao{
 	text-align: center;
